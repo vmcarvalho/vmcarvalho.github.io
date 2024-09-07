@@ -9,3 +9,17 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: jekyll-theme-minimal
+
+# Site settings
+title: Victor Carvalho
+email: victor.c@rvalho.ca
+description: > # this means to ignore newlines until "baseurl:"
+  Victor Carvalho - Software Developer
+baseurl: "/home" # the subpath of your site, e.g. /blog/
+url: "https://rvalho.ca" # the base hostname & protocol for your site
+twitter_username: victorcarvalho
+github_username:  vmcarvalho
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title:output_ext
