@@ -1,0 +1,127 @@
+baseURL = 'https://rvalho.ca'
+languageCode = 'en-us'
+title = 'Victor Carvalho'
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+canonifyURLs = true
+enableRobotsTXT = true
+
+# theme = "ananke"
+#theme = "not-much"
+theme = "hello-friend-ng"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+
+[[params.social]]
+name = "email"
+url = "mailto: contact@rvalho.ca"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/vmcarvalho/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/vmcarvalho"
+
+[[params.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/3941285/victor-carvalho"
+
+[[params.social]]
+name = "spotify"
+url = "https://open.spotify.com/user/12139706594"
+
+[[params.social]]
+name = "discogs"
+url = "https://www.discogs.com/user/victor.carvalhoxp"
+
+[params]
+theme = "dark"
+palette = "catpuccin"
+showThemeNotice = true
+showPostsSummary = true
+menu = "main"
+sectionPagesMenu = "main"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "02/01/2006"
+  dateformNumTime = "02/01/2006 15:04"
+
+ homeSubtitle = "Software Development Engineer"
+#subtitle = "Software Development Engineer"
+ # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "Victor Carvalho personal homepage and blog"
+  keywords = "homepage, blog, victor carvalho, personal"
+  images = [""]
+justifyContent = true
+
+[notFound]
+other = "Oops, page not found…23123"
+
+  [params.author]
+    name = "Victor Carvalho" 
+
+    [params.footer]
+    trademark = 2025
+    rss = true
+    copyright = true
+    author = false
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+
+  [params.logo]
+    logoMark     = "$"
+    logoText     = "cd /home/rvalho.ca/"
+    logoHomeLink = "/"
+    logoCursorColor    = "#F80"
+    logoCursorPathname = true
+
+# Navigation
+[menu]
+ [[menu.main]]
+    identifier = "1home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "3blog"
+    name = "blog"
+    title = "Posts"
+    url = "posts/"
+  
+  [[menu.main]]
+    identifier = "2about"
+    name = "about"
+    title = "About"
+    url = "about/"
+
+  [[menu.main]]
+    identifier = "5linkedin"
+    name = "linkedin"
+    title = "Linkedin"
+    url = "https://www.linkedin.com/in/vmcarvalho/"
+    hrefTargetBlank = true
+
+      [[menu.main]]
+    identifier = "4mail"
+    name = "mail"
+    title = "Mail"
+    url = "mailto:contact@rvalho.ca"
