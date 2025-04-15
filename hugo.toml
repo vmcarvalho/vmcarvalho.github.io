@@ -10,6 +10,10 @@ enableRobotsTXT = true
 #theme = "not-much"
 theme = "hello-friend-ng"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
