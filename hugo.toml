@@ -44,7 +44,7 @@ url = "https://open.spotify.com/user/12139706594"
 
 [[params.social]]
 name = "discogs"
-url = "https://www.discogs.com/user/victor.carvalhoxp"
+url = "https://www.discogs.com/user/victorcarvalho"
 
 [params]
 theme = "dark"
