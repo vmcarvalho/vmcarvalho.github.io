@@ -11,7 +11,7 @@ title = 'About'
 
 ✉️ Shoot an **email** to contact@rvalho.ca \
    Find me on **Linkedin** https://www.linkedin.com/in/vmcarvalho/ \
-📄 Download my [**Curriculum Vitae (CV)**](https://raw.githubusercontent.com/vmcarvalho/vmcarvalho.github.io/29c1d03770eb369f9215993c49bd400d772b69eb/static/VictorCarvalho_CV.pdf)
+📄 Download my [**Curriculum Vitae (CV)**](https://raw.githubusercontent.com/vmcarvalho/vmcarvalho.github.io/f30dfbb1bda743fe201a7536e8ce4505d7c5e037/static/VictorCarvalho_CV.pdf)
 
 
 **🥷🏼 Skills**: *Large-Scale Systems, Site Reliability Engineering, Software Architecture, CI/CD, Cloud Computing, Software Security*\
